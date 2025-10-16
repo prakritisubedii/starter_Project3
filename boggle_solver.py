@@ -34,7 +34,7 @@ class Boggle:
         Non-rectangular rows are padded logically by keeping tokens as empty strings,
         but they won't match in the trie anyway.
         """
-        # Note: isinstance() is a built-in Python function, not a missing definition.
+    
         if not grid or not isinstance(grid, list):
             self.grid = []
             self._neighbors = []
